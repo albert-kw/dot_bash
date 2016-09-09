@@ -1,0 +1,14 @@
+if [ -x /usr/bin/dircolors ]; then
+# test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" \
+    #|| eval "$(dircolors -b)"
+ eval `dircolors`
+
+extIMG=*.{JPG,jpg,jpeg,GIF,gif,PNG,png,pcx,pnm,TIFF,tiff,bmp}
+extCOMP=*.{bz2,zip,rar,tar}
+extMOV=*.{MPG,mpg,MPEG,mpeg,m4v,mp4,swf,AVI,avi,WMV,wmv,MOV,mov,ASF,asf}
+extAUDIO=*.{MP3,Mp3,mp3,FLAC,flac,OGG,ogg,WAV,wav}
+LS_COLORS="$LS_COLORS:$extIMG=$Purple\
+					:$extCOMP=$Red\
+					:$extMOV=$White\
+					:$extAUDIO=$Cyan"
+fi
