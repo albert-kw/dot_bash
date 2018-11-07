@@ -1,0 +1,9 @@
+# Running gvim on windows from cygwin
+# https://stackoverflow.com/questions/12654100/how-to-run-windows-gvim-from-cygwin
+
+gvim() {
+    local TARGET=$(cygpath -w $1)
+
+    /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim74/gvim.exe $TARGET & disown
+
+} 2>/dev/null
