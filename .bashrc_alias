@@ -10,3 +10,6 @@ export LS_OPTIONS='--color=auto'
 
 # bc calculator alias
 alias calc='bc -l'
+
+# git alias
+alias gti='git'

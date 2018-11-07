@@ -1,14 +1,2 @@
 #custom path
-PATH=$PATH:/home/akira/stools
-
-export CPPFLAGS='-I/usr/include -I/usr/local/include'
-export CFLAGS='-I/usr/include -I/usr/local/include'
-
-export LDFLAGS='-L/lib -L/lib64 -L/usr/lib -L/usr/lib64 -L/x86_64-slackware-linux/lib'
-
-export LD_LIBRARY_PATH='/usr/lib:/usr/lib64'
-
-export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig
-
-# Tell MONO about a certain library
-# sudo gvim /etc/mono/config
+PATH=$PATH:~/stools

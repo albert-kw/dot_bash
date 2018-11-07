@@ -24,3 +24,8 @@ git_prompt() {
 
     echo "$git_color<$(git_branch)$git_mod$git_color>"
 }
+
+# git branch autocomplete
+if [ -f ~/.bash/.git-completion.bash ]; then
+    . ~/.bash/.git-completion.bash
+fi
