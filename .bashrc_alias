@@ -1,9 +1,10 @@
 # ls alias
-export LS_OPTIONS='--color=auto'
+export LS_OPTIONS='-F --color=auto'
     alias ls='ls $LS_OPTIONS'
     alias l='ls'
-    alias ll='ls -l'
-    alias la='ls -lA'
+    alias ll='l -l'
+    alias la='l -A'
+    alias lla='l -lA'
     alias grep='grep $LS_OPTIONS'
     alias fgrep='fgrep $LS_OPTIONS'
     alias egrep='egrep $LS_OPTIONS'
