@@ -4,6 +4,6 @@
 gvim() {
     local TARGET=$(cygpath -w $1)
 
-    /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim74/gvim.exe $TARGET & disown
+    gvim_win $TARGET & disown
 
 } 2>/dev/null

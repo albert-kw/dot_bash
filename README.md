@@ -1,8 +1,4 @@
-# dot_bash
-#.bashrc files
+# INSTALL
 
-# Load bash settings
-# BASHRC_DIR="dot_bash"
-# for i in `find ~/BASHRC_DIR/ -name ".bash*"`; do
-#   . "$i"
-# done
+Make symlinks for both .bashrc and .bash_profile
+Make symlink for gvim_win
