@@ -14,3 +14,7 @@ alias calc='bc -l'
 
 # git alias
 alias gti='git'
+
+# exit alias
+alias :q='exit'
+alias :wq='exit'
